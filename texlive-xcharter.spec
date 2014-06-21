@@ -1,12 +1,12 @@
-# revision 32717
+# revision 33781
 # category Package
 # catalog-ctan /fonts/xcharter
-# catalog-date 2014-01-18 22:02:45 +0100
+# catalog-date 2014-04-28 14:35:24 +0200
 # catalog-license other-free
-# catalog-version 1.02
+# catalog-version 1.04
 Name:		texlive-xcharter
-Version:	1.02
-Release:	2
+Version:	1.04
+Release:	1
 Summary:	Extension of Bitstream Charter fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/xcharter
@@ -35,33 +35,36 @@ formats, with supporting files as necessary.
 
 #-----------------------------------------------------------------------
 %files
+%{_texmfdistdir}/fonts/enc/dvips/xcharter/xch1_4np5eb.enc
+%{_texmfdistdir}/fonts/enc/dvips/xcharter/xch1_57c3kj.enc
+%{_texmfdistdir}/fonts/enc/dvips/xcharter/xch1_774cbp.enc
+%{_texmfdistdir}/fonts/enc/dvips/xcharter/xch1_7yasjx.enc
+%{_texmfdistdir}/fonts/enc/dvips/xcharter/xch1_gev73z.enc
+%{_texmfdistdir}/fonts/enc/dvips/xcharter/xch1_nhqiuu.enc
+%{_texmfdistdir}/fonts/enc/dvips/xcharter/xch1_o3eiyz.enc
+%{_texmfdistdir}/fonts/enc/dvips/xcharter/xch1_rvnb4v.enc
+%{_texmfdistdir}/fonts/enc/dvips/xcharter/xch1_uwddnb.enc
+%{_texmfdistdir}/fonts/enc/dvips/xcharter/xch1_xeu7sg.enc
 %{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_2bziiw.enc
+%{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_3sc5wn.enc
+%{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_4np5eb.enc
 %{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_57c3kj.enc
 %{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_774cbp.enc
 %{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_7xsilo.enc
 %{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_7yasjx.enc
-%{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_c7a5t5.enc
 %{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_gev73z.enc
-%{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_ghsr6w.enc
-%{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_gjy6pd.enc
-%{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_gvpfwf.enc
-%{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_hrugnt.enc
-%{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_ic35ro.enc
 %{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_kaakcj.enc
-%{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_kn5oqz.enc
 %{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_mbz2ag.enc
-%{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_mgl6fo.enc
 %{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_nhqiuu.enc
 %{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_o3eiyz.enc
-%{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_ptibkq.enc
 %{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_rqpru4.enc
 %{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_rvnb4v.enc
 %{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_tsbasn.enc
 %{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_ttrny6.enc
-%{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_uggo2i.enc
+%{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_ty6fpf.enc
+%{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_uwddnb.enc
 %{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_x4fzx5.enc
 %{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_xeu7sg.enc
-%{_texmfdistdir}/fonts/enc/dvips/xcharter/xch_z56e5d.enc
 %{_texmfdistdir}/fonts/map/dvips/xcharter/XCharter.map
 %{_texmfdistdir}/fonts/opentype/public/xcharter/XCharter-Bold.otf
 %{_texmfdistdir}/fonts/opentype/public/xcharter/XCharter-BoldItalic.otf
@@ -171,6 +174,8 @@ formats, with supporting files as necessary.
 %{_texmfdistdir}/fonts/tfm/public/xcharter/XCharter1-Bold-tosf-sc-t1.tfm
 %{_texmfdistdir}/fonts/tfm/public/xcharter/XCharter1-Bold-tosf-t1--base.tfm
 %{_texmfdistdir}/fonts/tfm/public/xcharter/XCharter1-Bold-tosf-t1.tfm
+%{_texmfdistdir}/fonts/tfm/public/xcharter/XCharter1-Bold-tosf-ts1--base.tfm
+%{_texmfdistdir}/fonts/tfm/public/xcharter/XCharter1-Bold-tosf-ts1.tfm
 %{_texmfdistdir}/fonts/tfm/public/xcharter/XCharter1-BoldItalic-tosf-ly1--base.tfm
 %{_texmfdistdir}/fonts/tfm/public/xcharter/XCharter1-BoldItalic-tosf-ly1.tfm
 %{_texmfdistdir}/fonts/tfm/public/xcharter/XCharter1-BoldItalic-tosf-sc-ly1--base.tfm
@@ -179,6 +184,8 @@ formats, with supporting files as necessary.
 %{_texmfdistdir}/fonts/tfm/public/xcharter/XCharter1-BoldItalic-tosf-sc-t1.tfm
 %{_texmfdistdir}/fonts/tfm/public/xcharter/XCharter1-BoldItalic-tosf-t1--base.tfm
 %{_texmfdistdir}/fonts/tfm/public/xcharter/XCharter1-BoldItalic-tosf-t1.tfm
+%{_texmfdistdir}/fonts/tfm/public/xcharter/XCharter1-BoldItalic-tosf-ts1--base.tfm
+%{_texmfdistdir}/fonts/tfm/public/xcharter/XCharter1-BoldItalic-tosf-ts1.tfm
 %{_texmfdistdir}/fonts/tfm/public/xcharter/XCharter1-Italic-tosf-ly1--base.tfm
 %{_texmfdistdir}/fonts/tfm/public/xcharter/XCharter1-Italic-tosf-ly1.tfm
 %{_texmfdistdir}/fonts/tfm/public/xcharter/XCharter1-Italic-tosf-sc-ly1--base.tfm
@@ -187,6 +194,8 @@ formats, with supporting files as necessary.
 %{_texmfdistdir}/fonts/tfm/public/xcharter/XCharter1-Italic-tosf-sc-t1.tfm
 %{_texmfdistdir}/fonts/tfm/public/xcharter/XCharter1-Italic-tosf-t1--base.tfm
 %{_texmfdistdir}/fonts/tfm/public/xcharter/XCharter1-Italic-tosf-t1.tfm
+%{_texmfdistdir}/fonts/tfm/public/xcharter/XCharter1-Italic-tosf-ts1--base.tfm
+%{_texmfdistdir}/fonts/tfm/public/xcharter/XCharter1-Italic-tosf-ts1.tfm
 %{_texmfdistdir}/fonts/tfm/public/xcharter/XCharter1-Roman-tosf-ly1--base.tfm
 %{_texmfdistdir}/fonts/tfm/public/xcharter/XCharter1-Roman-tosf-ly1.tfm
 %{_texmfdistdir}/fonts/tfm/public/xcharter/XCharter1-Roman-tosf-sc-ly1--base.tfm
@@ -195,14 +204,12 @@ formats, with supporting files as necessary.
 %{_texmfdistdir}/fonts/tfm/public/xcharter/XCharter1-Roman-tosf-sc-t1.tfm
 %{_texmfdistdir}/fonts/tfm/public/xcharter/XCharter1-Roman-tosf-t1--base.tfm
 %{_texmfdistdir}/fonts/tfm/public/xcharter/XCharter1-Roman-tosf-t1.tfm
+%{_texmfdistdir}/fonts/tfm/public/xcharter/XCharter1-Roman-tosf-ts1--base.tfm
+%{_texmfdistdir}/fonts/tfm/public/xcharter/XCharter1-Roman-tosf-ts1.tfm
 %{_texmfdistdir}/fonts/type1/public/xcharter/XCharter-Bold.pfb
 %{_texmfdistdir}/fonts/type1/public/xcharter/XCharter-BoldItalic.pfb
 %{_texmfdistdir}/fonts/type1/public/xcharter/XCharter-Italic.pfb
 %{_texmfdistdir}/fonts/type1/public/xcharter/XCharter-Roman.pfb
-%{_texmfdistdir}/fonts/type1/public/xcharter/XCharter1-Bold.pfb
-%{_texmfdistdir}/fonts/type1/public/xcharter/XCharter1-BoldItalic.pfb
-%{_texmfdistdir}/fonts/type1/public/xcharter/XCharter1-Italic.pfb
-%{_texmfdistdir}/fonts/type1/public/xcharter/XCharter1-Roman.pfb
 %{_texmfdistdir}/fonts/vf/public/xcharter/XCharter-Bold-sup-ly1.vf
 %{_texmfdistdir}/fonts/vf/public/xcharter/XCharter-Bold-sup-t1.vf
 %{_texmfdistdir}/fonts/vf/public/xcharter/XCharter-Bold-tlf-ly1.vf
@@ -255,18 +262,22 @@ formats, with supporting files as necessary.
 %{_texmfdistdir}/fonts/vf/public/xcharter/XCharter1-Bold-tosf-sc-ly1.vf
 %{_texmfdistdir}/fonts/vf/public/xcharter/XCharter1-Bold-tosf-sc-t1.vf
 %{_texmfdistdir}/fonts/vf/public/xcharter/XCharter1-Bold-tosf-t1.vf
+%{_texmfdistdir}/fonts/vf/public/xcharter/XCharter1-Bold-tosf-ts1.vf
 %{_texmfdistdir}/fonts/vf/public/xcharter/XCharter1-BoldItalic-tosf-ly1.vf
 %{_texmfdistdir}/fonts/vf/public/xcharter/XCharter1-BoldItalic-tosf-sc-ly1.vf
 %{_texmfdistdir}/fonts/vf/public/xcharter/XCharter1-BoldItalic-tosf-sc-t1.vf
 %{_texmfdistdir}/fonts/vf/public/xcharter/XCharter1-BoldItalic-tosf-t1.vf
+%{_texmfdistdir}/fonts/vf/public/xcharter/XCharter1-BoldItalic-tosf-ts1.vf
 %{_texmfdistdir}/fonts/vf/public/xcharter/XCharter1-Italic-tosf-ly1.vf
 %{_texmfdistdir}/fonts/vf/public/xcharter/XCharter1-Italic-tosf-sc-ly1.vf
 %{_texmfdistdir}/fonts/vf/public/xcharter/XCharter1-Italic-tosf-sc-t1.vf
 %{_texmfdistdir}/fonts/vf/public/xcharter/XCharter1-Italic-tosf-t1.vf
+%{_texmfdistdir}/fonts/vf/public/xcharter/XCharter1-Italic-tosf-ts1.vf
 %{_texmfdistdir}/fonts/vf/public/xcharter/XCharter1-Roman-tosf-ly1.vf
 %{_texmfdistdir}/fonts/vf/public/xcharter/XCharter1-Roman-tosf-sc-ly1.vf
 %{_texmfdistdir}/fonts/vf/public/xcharter/XCharter1-Roman-tosf-sc-t1.vf
 %{_texmfdistdir}/fonts/vf/public/xcharter/XCharter1-Roman-tosf-t1.vf
+%{_texmfdistdir}/fonts/vf/public/xcharter/XCharter1-Roman-tosf-ts1.vf
 %{_texmfdistdir}/tex/latex/xcharter/LY1XCharter-Sup.fd
 %{_texmfdistdir}/tex/latex/xcharter/LY1XCharter-TLF.fd
 %{_texmfdistdir}/tex/latex/xcharter/LY1XCharter-TOsF.fd
@@ -277,6 +288,7 @@ formats, with supporting files as necessary.
 %{_texmfdistdir}/tex/latex/xcharter/TS1XCharter-TOsF.fd
 %{_texmfdistdir}/tex/latex/xcharter/XCharter.sty
 %doc %{_texmfdistdir}/doc/fonts/xcharter/README
+%doc %{_texmfdistdir}/doc/fonts/xcharter/altone.py
 %doc %{_texmfdistdir}/doc/fonts/xcharter/xcharter-doc.pdf
 %doc %{_texmfdistdir}/doc/fonts/xcharter/xcharter-doc.tex
 
