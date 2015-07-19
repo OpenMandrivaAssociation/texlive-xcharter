@@ -6,7 +6,7 @@
 # catalog-version 1.04
 Name:		texlive-xcharter
 Version:	1.04
-Release:	3
+Release:	4
 Summary:	Extension of Bitstream Charter fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/xcharter
