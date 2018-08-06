@@ -1,5 +1,5 @@
 Name:		texlive-xcharter
-Version:	1.112
+Version:	1.115
 Release:	1
 Summary:	Extension of Bitstream Charter fonts
 Group:		Publishing
