@@ -1,6 +1,6 @@
 Name:		texlive-xcharter
-Version:	1.115
-Release:	2
+Version:	1.116
+Release:	1
 Summary:	Extension of Bitstream Charter fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/xcharter
